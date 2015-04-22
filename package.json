@@ -1,0 +1,27 @@
+{
+  "name": "todo-restapi",
+  "version": "0.0.0",
+  "description": "a restful api for a todo app",
+  "main": "express.js",
+  "scripts": {
+    "start": "nodemon express.js",
+    "test": "mocha express.test.js"
+  },
+  "keywords": [
+    "todo",
+    "rest"
+  ],
+  "author": "mbah michael",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.8.1",
+    "mongoskin": "^1.4.1",
+    "morgan": "^1.5.2"
+  },
+  "devDependencies": {
+    "expect": "^1.6.0",
+    "mocha": "^2.2.4",
+    "superagent": "^1.2.0"
+  }
+}
